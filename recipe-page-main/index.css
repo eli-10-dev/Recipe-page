@@ -44,6 +44,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    margin-top: 1em;
     padding: 0em 2em 1em 2em;
 }
 
@@ -127,7 +128,12 @@ span {
     border-bottom: 1px solid var(--stone-150);
 }
 
-@media screen and (min-width: 376px) {
+.attribution{
+    margin: auto;
+    align-self: center;
+}
+
+@media screen and (min-width: 701px) {
     body{
         background: var(--stone-100);
     }
